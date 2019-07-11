@@ -53,50 +53,71 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AIFighterShooter.cs" />
-     <Compile Include="Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
-     <Compile Include="Assets\Cameras\Scripts\AutoCam.cs" />
-     <Compile Include="Assets\Cameras\Scripts\FreeLookCam.cs" />
-     <Compile Include="Assets\Cameras\Scripts\HandHeldCam.cs" />
-     <Compile Include="Assets\Cameras\Scripts\LookatTarget.cs" />
-     <Compile Include="Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
-     <Compile Include="Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
-     <Compile Include="Assets\Cameras\Scripts\TargetFieldOfView.cs" />
-     <Compile Include="Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
-     <Compile Include="Assets\Characters\ThirdPersonCharacter\Scripts\FighterShooter.cs" />
-     <Compile Include="Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
-     <Compile Include="Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
-     <Compile Include="Assets\IWeapon.cs" />
-     <Compile Include="Assets\SelfAnimator.cs" />
-     <Compile Include="Assets\UMTools.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\AILook.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\MenuGUI.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Spawner.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\TankHUD.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\TankMover.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\Damage.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\DamageManager.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\Explosion.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\ExplosionObject.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\FlashLight.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\MoverBullet.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\MoverMissile.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\WeaponBase.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\WeaponController.cs" />
-     <Compile Include="Assets\WeaponSystem\Scripts\Weapon\WeaponLauncher.cs" />
-     <None Include="Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
-     <None Include="Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
-     <None Include="Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
-     <None Include="Assets\Effects\Projectors\Guidelines.txt" />
-     <None Include="Assets\Effects\ImageEffects\Readme.txt" />
-     <None Include="Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
-     <None Include="Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
-     <None Include="Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
-     <None Include="Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
-     <None Include="Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
-     <None Include="Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Cameras\CameraGuidelines.txt" />
-     <None Include="Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <Compile Include="Assets\UMSTPA\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\AIFighterShooter.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\AreaHolder.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\Cameras\Scripts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\Cameras\Scripts\AutoCam.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\Cameras\Scripts\FreeLookCam.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\Cameras\Scripts\HandHeldCam.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\Cameras\Scripts\LookatTarget.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\Cameras\Scripts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\Cameras\Scripts\TargetFieldOfView.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\FighterShooter.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\HandWeapon.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\SelfAnimator.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\Utility\UMTools.cs" />
+     <Compile Include="Assets\UMSTPA\Scripts\WeaponBehaviour.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Example\ExamplePlayerController.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputKeyboard.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputMouse.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputPinchGesture.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputRotateGesture.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputSwipeGesture.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputUI.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\Dpad.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\Joystick.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\SteeringWheel.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\AxisInputs\Touchpad.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\ButtonInputs\ButtonInputKeyboard.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\ButtonInputs\ButtonInputSwipeGesture.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\ButtonInputs\ButtonInputUI.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\Core\BaseInput.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\Core\ISimpleInputDraggable.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\Core\ISimpleInputDraggableMultiTouch.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\Core\SelectivePointerInput.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\Core\SimpleInputDragListener.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\Core\SimpleInputMultiDragListener.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\Core\SimpleInputUtils.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\Core\SwipeGestureBase.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\KeyInputs\KeyInputKeyboard.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\KeyInputs\KeyInputSwipeGesture.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\KeyInputs\KeyInputUI.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\MouseButtonInputs\MouseButtonInputKeyboard.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\MouseButtonInputs\MouseButtonInputSwipeGesture.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\MouseButtonInputs\MouseButtonInputUI.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\SimpleInput.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Scripts\SimpleInputHelper.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\AILook.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\MenuGUI.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Spawner.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\TankHUD.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\TankMover.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\Damage.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\DamageManager.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\Explosion.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\ExplosionObject.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\FlashLight.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\MoverBullet.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\MoverMissile.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\WeaponBase.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\WeaponController.cs" />
+     <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\WeaponLauncher.cs" />
+     <None Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\README.txt" />
+     <None Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Credits.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>F:/GitProjects/SimpleThirdPersonAI/SimpleThirdPersonAI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -667,10 +688,6 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity 2018.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{10BEE3B0-7561-33DB-A031-5867B0C7833B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
