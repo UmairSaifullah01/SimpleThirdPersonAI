@@ -12,6 +12,7 @@ namespace UMSTPA
     {
         [Header ("Fight OR Shoot")]
         [SerializeField] public CharactorType m_Type;
+        [SerializeField] public bool IsCombineFight; 
         [SerializeField] private WeaponBehaviour[] Weapons;
         private SelfAnimator animatorParametors;
         private float punchCounter = 0, kickCounter = 0, kicksAndPunches = 0;
@@ -51,8 +52,8 @@ namespace UMSTPA
         }
         public void Fight (bool isFight, bool isPunch, bool isKick)
         {
-            if (isFight)
-                animatorParametors.FightMode = isFight;
+
+            animatorParametors.FightMode = isFight;
 
             if (animatorParametors.FightMode)
             {

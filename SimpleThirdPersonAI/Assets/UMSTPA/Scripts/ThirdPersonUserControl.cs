@@ -36,7 +36,7 @@ namespace UMSTPA
         {
             if (!m_Jump)
             {
-                m_Jump = Input.GetButtonDown ("Jump");
+                m_Jump = SimpleInput.GetButtonDown ("Jump");
             }
 
         }
@@ -46,9 +46,9 @@ namespace UMSTPA
         private void FixedUpdate ()
         {
             // read inputs
-            float h = Input.GetAxis ("Horizontal");
-            float v = Input.GetAxis ("Vertical");
-            bool crouch = Input.GetKey (KeyCode.C);
+            float h = SimpleInput.GetAxis ("Horizontal");
+            float v = SimpleInput.GetAxis ("Vertical");
+            bool crouch = SimpleInput.GetKey (KeyCode.C);
 
             // calculate move direction to pass to character
             if (m_Cam != null)
@@ -64,15 +64,25 @@ namespace UMSTPA
             }
 #if !MOBILE_INPUT
             // walk speed multiplier
-            if (Input.GetKey (KeyCode.LeftShift))
+            if (SimpleInput.GetKey (KeyCode.LeftShift))
                 m_Move *= 0.5f;
 #endif
 
             // pass all parameters to the character control script
             m_Character.Move (m_Move, crouch, m_Jump);
-            m_Character.Fight (Input.GetKeyDown (KeyCode.LeftControl), Input.GetKeyDown (KeyCode.LeftControl), false);
-            //m_Character.ShootEnemy (transform, Input.GetKeyDown (KeyCode.LeftControl));
+            if (m_Character.m_Type == CharactorType.Fighter)
+                FightInput ();
+            else
+                m_Character.ShootEnemy (transform, SimpleInput.GetKeyDown (KeyCode.LeftControl));
             m_Jump = false;
+        }
+
+        private void FightInput ()
+        {
+            if (m_Character.IsCombineFight)
+                m_Character.Fight (SimpleInput.GetKeyDown (KeyCode.LeftControl));
+            else
+                m_Character.Fight (SimpleInput.GetKeyDown (KeyCode.LeftControl), SimpleInput.GetKeyDown (KeyCode.LeftControl), false);
         }
     }
 }

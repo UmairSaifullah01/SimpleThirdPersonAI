@@ -15,7 +15,7 @@ namespace UMSTPA
         private Vector3 currentTarget, oldTarget;
         private float waiter;
         private bool isAction = false;
-        [HideInInspector] public AreaHolder areaHolder;
+        public AreaHolder areaHolder;
         // Start is called before the first frame update
         void Start ()
         {
@@ -29,20 +29,14 @@ namespace UMSTPA
         // Update is called once per frame
         void Update ()
         {
-
-            if (currentTarget != null)
-                AI ();
-            else
+            if (!areaHolder)
             {
-                if (!areaHolder)
-                {
-                    areaHolder = GetComponentInParent<AreaHolder> ();
-                }
-                else
-                {
-                    SetTarget (areaHolder.RandomNavmeshLocation ());
-                }
+                areaHolder =this.GetComponentInParent<AreaHolder> ();
+                SetTarget (areaHolder.RandomNavmeshLocation ());
             }
+            if (areaHolder && currentTarget != null)
+                AI ();
+
         }
 
         private void Wandering (Vector3 position)

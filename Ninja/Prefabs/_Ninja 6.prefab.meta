@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 4ed610d183e4e407eaab7fea4f1ce0c5
+labels:
+- Character
+- System
+- Mecanim
+- Animation
+- Ninja
+- Climb
+- Swim
+- Fly
+- Sword
+- Rifle
+- Pistol
+- Bow
+- Shoot
+- RPG
+- MMO
+- RTS
+- Kit
+- FPS
+- Shooter
+- Aim
+- Big
+- Package
+- Pack
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

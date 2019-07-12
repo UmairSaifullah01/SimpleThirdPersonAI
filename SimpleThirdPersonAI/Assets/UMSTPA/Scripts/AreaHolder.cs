@@ -38,9 +38,11 @@ namespace UMSTPA
             return finalPosition;
         }
 
-        void OnGizmoSelected ()
+        void OnDrawGizmosSelected ()
         {
-            Gizmos.color = Color.green;
+            Color col = Color.green;
+            col.a = 0.3f;
+            Gizmos.color = col;
             Gizmos.DrawSphere (transform.position, areaRange);
         }
     }

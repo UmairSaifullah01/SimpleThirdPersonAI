@@ -1407,7 +1407,7 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 1
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
-  m_Type: 1
+  m_Type: 0
   Weapons:
   - {fileID: 3744865923377797393}
 --- !u!114 &3744865922528693392
