@@ -121,11 +121,15 @@ namespace UMSTPA
         }
         public bool Shoot
         {
+            get
+            {
+                return GetAnimator ().GetBool ("Shoot");
+            }
             set
             {
-                if (value)
-                    GetAnimator ().SetTrigger ("Shoot");
+                GetAnimator ().SetBool ("Shoot", value);
             }
+
         }
         private Animator GetAnimator ()
         {

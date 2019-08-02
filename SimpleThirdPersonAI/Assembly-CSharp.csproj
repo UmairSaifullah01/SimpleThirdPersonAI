@@ -53,6 +53,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\3rdPerson+Fly\Scripts\LevelScripts\ControlsTutorial.cs" />
+     <Compile Include="Assets\3rdPerson+Fly\Scripts\LevelScripts\HintManagement.cs" />
+     <Compile Include="Assets\3rdPerson+Fly\Scripts\LevelScripts\ThirdPersonOrbitCamBasic.cs" />
+     <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\AimBehaviourBasic.cs" />
+     <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\BasicBehaviour.cs" />
+     <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\FlyBehaviour.cs" />
+     <Compile Include="Assets\3rdPerson+Fly\Scripts\PlayerScripts\MoveBehaviour.cs" />
+     <Compile Include="Assets\ScriptableObjectUtility.cs" />
+     <Compile Include="Assets\StateManager.cs" />
      <Compile Include="Assets\UMSTPA\Scripts\AICharacterControl.cs" />
      <Compile Include="Assets\UMSTPA\Scripts\AIFighterShooter.cs" />
      <Compile Include="Assets\UMSTPA\Scripts\AreaHolder.cs" />
@@ -116,6 +125,7 @@
      <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\WeaponBase.cs" />
      <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\WeaponController.cs" />
      <Compile Include="Assets\UMSTPA\ThirdParty\WeaponSystem\Scripts\Weapon\WeaponLauncher.cs" />
+     <Compile Include="Assets\WeaponAnimation.cs" />
      <None Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\README.txt" />
      <None Include="Assets\UMSTPA\ThirdParty\Plugins\SimpleInput\Credits.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">

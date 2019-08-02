@@ -2,21 +2,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 namespace UMSTPA
 {
     public enum CharactorType
     {
         Fighter, Shooter
     }
+
     public class FighterShooter : ThirdPersonCharacter
     {
+
         [Header ("Fight OR Shoot")]
         [SerializeField] public CharactorType m_Type;
-        [SerializeField] public bool IsCombineFight; 
+        [SerializeField] public bool IsCombineFight;
         [SerializeField] private WeaponBehaviour[] Weapons;
         private SelfAnimator animatorParametors;
         private float punchCounter = 0, kickCounter = 0, kicksAndPunches = 0;
         private bool IsShooting = false;
+
+        private AnimatorOverrideController animController;
+
         // Start is called before the first frame update
         protected override void Initialize ()
         {
@@ -27,7 +33,12 @@ namespace UMSTPA
                 {
                     item.gameObject.SetActive (false);
                 }
+            animController = new AnimatorOverrideController (m_Animator.runtimeAnimatorController);
+            Weapons[0].SetAnimations (ref animController);
+            m_Animator.runtimeAnimatorController = animController;
         }
+
+
         public void Reset ()
         {
             animatorParametors.FightMode = false;
@@ -96,7 +107,6 @@ namespace UMSTPA
             {
                 animatorParametors.Shoot = isShoot;
             }
-
         }
         public override void Move (Vector3 move, bool crouch, bool jump)
         {

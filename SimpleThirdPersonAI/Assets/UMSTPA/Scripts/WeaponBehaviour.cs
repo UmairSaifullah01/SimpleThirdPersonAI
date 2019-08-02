@@ -4,10 +4,12 @@ using UnityEngine;
 
 public abstract class WeaponBehaviour : MonoBehaviour
 {
+    [SerializeField]
+    protected WeaponAnimation animations;
     public abstract void Shoot ();
 
     // Start is called before the first frame update
-    private void Start()
+    private void Start ()
     {
         Initialize ();
     }
@@ -16,8 +18,9 @@ public abstract class WeaponBehaviour : MonoBehaviour
     public abstract void DoUpdate ();
 
     // Update is called once per frame
-    private void Update()
+    private void Update ()
     {
         DoUpdate ();
     }
+    public abstract void SetAnimations (ref AnimatorOverrideController animController);
 }
