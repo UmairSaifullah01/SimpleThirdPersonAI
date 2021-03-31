@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\HP ZBOOK 15\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\HP ZBOOK 15\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_SimpleThirdPersonAI.-1151716369.00" t="ExcludeRecursive" />
+    <e p="D:\UnityProjects\SimpleThirdPersonAI" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="UmairGameSet" t="Include">
+          <e p="IKDriver" t="Include">
+            <e p="Editor" t="Include">
+              <e p="IKDriverEditor.cs" t="Include" />
+            </e>
+            <e p="IKDriver.cs" t="Include" />
+          </e>
+          <e p="MiniMap" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="IMiniMapItem.cs" t="Include" />
+              <e p="MiniMap.cs" t="Include" />
+              <e p="MiniMapItem.cs" t="Include" />
+              <e p="TargetFollower.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Camera" t="Include">
+              <e p="AbstractTargetFollower.cs" t="Include" />
+              <e p="AutoCam.cs" t="Include" />
+              <e p="FreeLookCam.cs" t="Include" />
+              <e p="HandHeldCam.cs" t="Include" />
+              <e p="LookatTarget.cs" t="Include" />
+              <e p="PivotBasedCameraRig.cs" t="Include" />
+              <e p="ProtectCameraFromWallClip.cs" t="Include" />
+              <e p="TargetFieldOfView.cs" t="Include" />
+            </e>
+            <e p="CoroutineHandler.cs" t="Include" />
+            <e p="CustomizationSystem" t="Include">
+              <e p="ColorCustomizer.cs" t="Include" />
+              <e p="CustomizeDataContainer.cs" t="Include" />
+              <e p="Stanadard" t="Include">
+                <e p="CustomizationController.cs" t="Include" />
+                <e p="CustomizationInfluence.cs" t="Include" />
+                <e p="CustomizeItem.cs" t="Include" />
+                <e p="Customizer.cs" t="Include" />
+                <e p="SimpleCustomizer.cs" t="Include" />
+              </e>
+              <e p="TextureCustomizer.cs" t="Include" />
+              <e p="WheelCustomizer.cs" t="Include" />
+            </e>
+            <e p="DataPersistSystem" t="Include">
+              <e p="BinaryDataSaver.cs" t="Include" />
+              <e p="Data.cs" t="Include" />
+              <e p="DataEntity.cs" t="Include" />
+              <e p="DataHandler.cs" t="Include" />
+              <e p="DataManager.cs" t="Include" />
+              <e p="DataPersistSystem.cs" t="Include" />
+              <e p="IDataEntity.cs" t="Include" />
+              <e p="IDataSaver.cs" t="Include" />
+              <e p="JsonDataSaver.cs" t="Include" />
+              <e p="UnityDataSaver.cs" t="Include" />
+              <e p="XmlDataSaver.cs" t="Include" />
+            </e>
+            <e p="Detections" t="Include">
+              <e p="ParkingPlace.cs" t="Include" />
+              <e p="TriggerTag.cs" t="Include" />
+              <e p="UJCollision.cs" t="Include" />
+              <e p="UJTrigger.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="LightBakeEditor.cs" t="Include" />
+              <e p="SceneViewWindow.cs" t="Include" />
+            </e>
+            <e p="EventSystem" t="Include">
+              <e p="EventHandler.cs" t="Include" />
+              <e p="EventListener.cs" t="Include" />
+            </e>
+            <e p="Extensions" t="Include">
+              <e p="EnumBuilder.cs" t="Include" />
+              <e p="UMTools.cs" t="Include" />
+            </e>
+            <e p="GameLinks.cs" t="Include" />
+            <e p="INAPPManager.cs" t="Include" />
+            <e p="Logger.cs" t="Include" />
+            <e p="PositionStatus.cs" t="Include" />
+            <e p="RaceOrganizer.cs" t="Include" />
+            <e p="ReloaderScene.cs" t="Include" />
+            <e p="Rewinder.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
+            <e p="ScriptableSingleton.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+            <e p="StateMachine" t="Include">
+              <e p="IState.cs" t="Include" />
+              <e p="Transition.cs" t="Include" />
+            </e>
+            <e p="TargetFollow.cs" t="Include" />
+            <e p="UBehaviour" t="Include">
+              <e p="Editor" t="Include">
+                <e p="UEditorBase.cs" t="Include" />
+                <e p="UEditorHelper.cs" t="Include" />
+                <e p="UHideInInspectorDrawer.cs" t="Include" />
+              </e>
+              <e p="UBehaviour.cs" t="Include" />
+              <e p="UClassHeaderAttribute.cs" t="Include" />
+              <e p="UHideInInspectorAttribute.cs" t="Include" />
+              <e p="UToolbarAttribute.cs" t="Include" />
+            </e>
+            <e p="UISystem" t="Include">
+              <e p="AdvanceButton.cs" t="Include" />
+              <e p="MVVMUI" t="Include">
+                <e p="AddressablesManager.cs" t="Include" />
+                <e p="Data.cs" t="Include" />
+                <e p="DemoPanels" t="Include">
+                  <e p="CompletePanel.cs" t="Include" />
+                  <e p="ExitPanel.cs" t="Include" />
+                  <e p="FailPanel.cs" t="Include" />
+                  <e p="GamePlayPanel.cs" t="Include" />
+                  <e p="GenericPanel.cs" t="Include" />
+                  <e p="LoadingPanel.cs" t="Include" />
+                  <e p="MenuPanel.cs" t="Include" />
+                  <e p="PausePanel.cs" t="Include" />
+                  <e p="SplashPanel.cs" t="Include" />
+                </e>
+                <e p="IView.cs" t="Include" />
+                <e p="SafeArea.cs" t="Include" />
+                <e p="UIHandler.cs" t="Include" />
+                <e p="UIPanel.cs" t="Include" />
+                <e p="UIViewTemplates" t="Include">
+                  <e p="ButtonBinder.cs" t="Include" />
+                  <e p="ButtonView.cs" t="Include" />
+                  <e p="SliderBinder.cs" t="Include" />
+                  <e p="TextView.cs" t="Include" />
+                </e>
+                <e p="ViewBase.cs" t="Include" />
+              </e>
+              <e p="TabView.cs" t="Include" />
+            </e>
+            <e p="UMTouchControl.cs" t="Include" />
+            <e p="VirtualCurrency" t="Include">
+              <e p="CurrencyBinding.cs" t="Include" />
+              <e p="CurrencyText.cs" t="Include" />
+              <e p="IPurchasable.cs" t="Include" />
+              <e p="VCHandler.cs" t="Include" />
+              <e p="VirtualCurrency.cs" t="Include" />
+            </e>
+            <e p="WayPointSystem" t="Include">
+              <e p="Editor" t="Include">
+                <e p="WayPointEditor.cs" t="Include" />
+                <e p="WayPointManagerEditor.cs" t="Include" />
+              </e>
+              <e p="WayPoint.cs" t="Include" />
+              <e p="WayPointManager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="SoundManager" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Sound.cs" t="Include" />
+              <e p="SoundExtensions.cs" t="Include" />
+              <e p="SoundManager.cs" t="Include" />
+              <e p="SoundSettings.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TPC" t="Include">
+            <e p="Locomotion.cs" t="Include" />
+            <e p="ThirdPersonController.cs" t="Include" />
+            <e p="UserInput.cs" t="Include" />
+            <e p="vAnimatorParameter.cs" t="Include" />
+          </e>
+          <e p="UMAds" t="Include">
+            <e p="Components" t="Include">
+              <e p="AdsButton.cs" t="Include" />
+              <e p="AdsEvent.cs" t="Include" />
+              <e p="RewardedAdButton.cs" t="Include" />
+            </e>
+            <e p="Core" t="Include">
+              <e p="AdsManager.cs" t="Include" />
+              <e p="IAdsPlugin.cs" t="Include" />
+            </e>
+            <e p="Dependency" t="Include">
+              <e p="AdMobPlugin.cs" t="Include" />
+              <e p="UnityAdmobPlugin.cs" t="Include" />
+              <e p="UnityAdmobSettings.cs" t="Include" />
+              <e p="UnityPlugin.cs" t="Include" />
+            </e>
+            <e p="ReadMe.cs" t="Include" />
+          </e>
+          <e p="VehicleController" t="Include">
+            <e p="AIControlInput.cs" t="Include" />
+            <e p="ControlInput.cs" t="Include" />
+            <e p="FuelSystem" t="Include">
+              <e p="FuelConsumer.cs" t="Include" />
+              <e p="FuelStation.cs" t="Include" />
+              <e p="IFuelConsumer.cs" t="Include" />
+            </e>
+            <e p="Sensor.cs" t="Include" />
+            <e p="UnitySkidmarks" t="Include">
+              <e p="Skidmarks.cs" t="Include" />
+              <e p="Skidmarks.shader" t="Include" />
+              <e p="WheelSkid.cs" t="Include" />
+            </e>
+            <e p="UserControlInput.cs" t="Include" />
+            <e p="VehicleAudio.cs" t="Include" />
+            <e p="VehicleController.cs" t="Include" />
+            <e p="VehicleLights.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="SimpleThirdPersonAI.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
